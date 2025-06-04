@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Image 
-        source={{ uri: 'https://avatars.githubusercontent.com/u/victoriaUNI' }} 
+        source={require('../../assets/images/foto.jpg')}
         style={styles.profileImage}
       />
       <Text style={styles.title}>Victoria Luiza</Text>
