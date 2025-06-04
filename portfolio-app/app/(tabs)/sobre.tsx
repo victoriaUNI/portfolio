@@ -21,7 +21,16 @@ export default function Sobre() {
         <Text style={styles.techItem}>- Figma</Text>
         <Text style={styles.techItem}>- IOT</Text>
         <Text style={styles.techItem}>- Coreographe</Text>
+        
       </View>
+      <Text style={styles.subtitle}>Tecnologias Utilizadas neste App:</Text>
+      <View style={styles.techList}>
+        <Text style={styles.techItem}>- React Native</Text>
+        <Text style={styles.techItem}>- Expo</Text>
+        <Text style={styles.techItem}>- Expo Router</Text>
+        <Text style={styles.techItem}>- TypeScript</Text>
+        <Text style={styles.techItem}>- GitHub Codespaces</Text>
+        </View>
     </View>
   );
 }
